@@ -1,0 +1,99 @@
+        .hero-img {
+            width: 100%;
+            height: 600px;
+            // background-image: url(../images/hero.jpg), rgba(0, 0, 0, 0.5);
+            background-repeat: no-repeat;
+            background: url("../images/hero.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+        
+        .header-primary {
+            background-color: $color-white;
+            height: 50px;
+            line-height: 50px;
+            ul.left {
+                float: left;
+                li {
+                    float: left;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    margin-right: 12px;
+                    span {
+                        padding-right: 2px;
+                    }
+                    a:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+            ul.right {
+                float: right;
+                li {
+                    float: left;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    font-weight: 700;
+                    margin-right: 12px;
+                    span {
+                        padding-right: 2px;
+                    }
+                    button {
+                        padding: 4px 8px;
+                        background-color: $primary-color;
+                        &:hover {
+                            transition: .2s all;
+                            background-color: $secondary-color;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            h2.logo {
+                font-family: $primary-font;
+                text-transform: uppercase;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 32px;
+            }
+        }
+        
+        .header-secondary {
+            background-color: rgba($dark-grey, $alpha: 0.5);
+            display: flex;
+            min-height: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            &_items {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-items: center;
+                width: 100%;
+                input[type=text] {
+                    width: 33%;
+                }
+                button,
+                input[type=text] {
+                    padding: 8px 12px;
+                    border-radius: 8px;
+                    line-height: 20px;
+                    height: 40px;
+                    border: none;
+                    display: inline-flex;
+                    cursor: pointer;
+                }
+                &_input-fields {
+                    width: 100%;
+                    margin: 0 2px 0 4px;
+                }
+                button {
+                    display: flex;
+                    align-items: center;
+                    vertical-align: middle;
+                }
+            }
+        }

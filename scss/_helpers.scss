@@ -1,0 +1,56 @@
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.padding-left-0 {
+    padding-left: 0 !important;
+}
+
+.padding-right-0 {
+    padding-right: 0 !important;
+}
+
+.align-middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.f-20 {
+    font-size: 20px !important;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.right-25px {
+    right: 25px !important;
+}
+
+.right-60px {
+    right: 60px !important;
+}
+
+.right-0px {
+    right: 0px !important;
+}
+.border-none
+{
+    border:none !important;
+}

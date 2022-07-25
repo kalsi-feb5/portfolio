@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  border: none;
+}
+
+button {
+  border: none;
+  border-radius: 0.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  -webkit-transition: .1s all;
+  transition: .1s all;
+}
+
+.primary-color {
+  color: #fdc600;
+}
+
+.secondary-color {
+  color: #333333;
+}
+
+.default-color {
+  color: #1a1a1a;
+}
+
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.padding-left-0 {
+  padding-left: 0 !important;
+}
+
+.padding-right-0 {
+  padding-right: 0 !important;
+}
+
+.align-middle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.f-20 {
+  font-size: 20px !important;
+}
+
+.hero-img {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background: url("../images/hero.jpg"), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background: url("../images/hero.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.header-primary {
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.header-primary ul.left {
+  float: left;
+}
+
+.header-primary ul.left li {
+  float: left;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.header-primary ul.left li span {
+  padding-right: 2px;
+}
+
+.header-primary ul.left li a:hover {
+  color: #fdc600;
+}
+
+.header-primary ul.right {
+  float: right;
+}
+
+.header-primary ul.right li {
+  float: left;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.header-primary ul.right li span {
+  padding-right: 2px;
+}
+
+.header-primary ul.right li button {
+  padding: 4px 8px;
+  background-color: #fdc600;
+}
+
+.header-primary ul.right li button:hover {
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  background-color: #333333;
+  color: #fff;
+}
+
+.header-primary h2.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+}
+
+.header-secondary {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-secondary_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.header-secondary_items input[type=text] {
+  width: 33%;
+}
+
+.header-secondary_items button,
+.header-secondary_items input[type=text] {
+  padding: 8px 12px;
+  border-radius: 8px;
+  line-height: 20px;
+  height: 40px;
+  border: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.header-secondary_items_input-fields {
+  width: 100%;
+  margin: 0 2px 0 4px;
+}
+
+.header-secondary_items button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+h1 {
+  color: #fdc600;
+}
+
+body {
+  line-height: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+/*# sourceMappingURL=style.css.map */
